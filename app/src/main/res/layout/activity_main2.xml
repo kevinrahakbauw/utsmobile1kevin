@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgriwayat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Main2Activity">
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="157dp"
+            android:layout_marginTop="55dp"
+            android:text="PT.ABC"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:text="Jl.Soekarno Hatta, Bandung"
+            android:textColor="#000"
+            android:textSize="13dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="50dp"
+            android:background="#AEAB00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/berhasil"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/purple_700"
+            android:layout_marginTop="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Total"
+                android:textColor="#000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/total"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Discount"
+                android:textColor="#000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/discount"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Total Belanja"
+            android:textColor="#000"
+            android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/belanja"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginTop="40dp"
+            android:text="Terima Kasih"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="95dp"
+            android:layout_marginTop="10dp"
+            android:text="Atas Kunjungan Anda di"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="90dp"
+            android:layout_marginTop="10dp"
+            android:text="Sekolah Tinggi Tenologi Bandung"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</ScrollView>
+
